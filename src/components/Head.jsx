@@ -11,7 +11,7 @@ const Head = () => {
     <div className="grid grid-flow-col p-2  shadow-sm ">
       <div className="flex flex-row gap-3 col-span-1">
         <img src="src\assets\icons8-hamburger-96.png" alt="hamburger icon" className="h-8 cursor-pointer"  onClick={()=>toggleSideMenu()}/>
-        <img src="src\assets\YouTube-Logo-Vector.png" alt="Youtube Logo" className="h-8 cursor-pointer" />
+        <img src="src\assets\YouTube-Logo-Vector.png" alt="Youtube Logo" className="h-8 cursor-pointer"  />
       </div>
 
       <div className="col-span-10  flex justify-center items-center ">
